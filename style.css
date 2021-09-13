@@ -34,6 +34,24 @@
 	
 }
 
+@media (min-width: 992px) 
+{
+	.div-categories-sticky-top
+	{
+		top:100px !important;
+		position: -webkit-sticky;
+		position: sticky;
+		z-index: 1019;
+	}
+	
+	.categories-sticky-top
+	{
+		overflow-y: auto;
+		max-height:350px;
+	}
+	
+}
+
 @media (min-width: 768px) 
 {
 	.footer-medsos
@@ -42,7 +60,6 @@
 	}
 }
 
-
 .text-limit
 {
 	display: -webkit-box;
@@ -50,3 +67,4 @@
 	-webkit-box-orient: vertical;
 	overflow: hidden;
 }
+
